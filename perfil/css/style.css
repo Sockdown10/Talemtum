@@ -1,0 +1,793 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+
+@import url(https://weloveiconfonts.com/api/?family=iconicstroke);
+
+@import url(https://weloveiconfonts.com/api/?family=fontawesome);
+
+
+
+div[class*="iconicstroke-"]:before {
+    font-family: 'iconicstroke', sans-serif;
+}
+
+a[class*="iconicstroke-"]:before {
+    font-family: 'iconicstroke', sans-serif;
+}
+
+
+a[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+
+
+a, div[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+
+
+div[class*="fontawesome-"]:before {
+    font-family: 'fontawesome', sans-serif;
+}
+
+/*--------GENERAL-------*/
+
+
+*{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans Limbu', sans-serif;
+
+    list-style: none;
+
+  
+
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+    overflow-y: scroll;
+
+
+}
+
+
+body{
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+
+
+/*--------LETRA-------*/
+
+
+
+h1{
+
+
+    text-align: center;
+
+    font-size: 3em !important;
+
+    font-weight: lighter;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+h2{
+
+    text-align: center;
+
+    font-size: 200px;
+
+    font-weight: lighter;
+
+    letter-spacing: 0.5px;
+
+
+}
+
+
+
+h4, h5, h6{
+
+    text-align: center;
+
+    font-weight: weight;
+
+    font-size: 1.2em;
+
+    margin-bottom: 10%;
+
+}
+
+
+h5{
+
+    margin-bottom: 10%;
+    color: white;
+    text-decoration: underline;
+    
+    
+
+}
+
+
+#p_header{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+
+}
+p{
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    font-size: 30px;
+
+    color: black;
+
+    font-weight: bolder;
+
+}
+
+
+#azul_footer{
+
+ color: #3e7deb;
+   font-weight: bold;
+   text-decoration: underline;
+
+
+}
+
+
+
+
+
+
+/*--------HEADER-------*/
+
+
+#cabecera{
+
+ 
+
+    width: 100%;
+
+    position: fixed;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    padding: 5px;
+
+    z-index: 3;
+
+    margin-top: -10;
+
+    background-color: #f2f2f285;
+    
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.img_header{
+
+    margin-top: 0px;
+
+}
+
+
+
+
+
+/*--------MAIN-------*/
+
+
+#contenido{
+
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    flex-wrap: nowrap;
+
+    justify-content: center;
+   
+    transition: top 0.3s;
+}
+
+
+/*--------VÍDEOS-------*/
+
+
+
+
+#video1 {
+
+    margin-top: 100px;
+
+    cursor: pointer;
+
+    z-index: 2;
+
+    background-color: white;
+
+    text-align: center;
+
+  
+
+
+}
+
+#video1 img{
+
+border: #0e2070 6px solid;
+border-radius: 100%;
+}
+
+#video2 {
+
+
+    cursor: pointer;
+
+    background-color: white;
+
+    text-align: center;
+
+    z-index: 4;
+
+
+
+}
+
+
+/*--------APARTADO BOTONES-------*/
+
+
+#por_encima{
+
+    background-color: #ffffff;
+
+    z-index: 8;
+
+}
+
+#titulo_botones{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: white;
+
+    margin-bottom: 80px;
+
+    margin-top: 60px;
+
+    z-index: 8;
+
+    background-color: #ffffff;
+
+
+}
+
+#solo_botones2{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 0 auto;
+
+    margin-bottom: 60px;
+
+    z-index: 10;
+
+    background-color: #ffffff;
+
+
+}
+
+
+
+.btn-round:hover {
+
+    background: black; 
+
+    transition: ease-in-out 0s;
+    
+    -webkit-transition:0;
+    -moz-transition:0;
+    -o-transition:0;
+    -ms-transition:0;
+
+}
+
+
+
+
+.boton:hover, .boton:focus {
+
+    font-size: 2.5em; 
+    
+    transition: 0.4s;
+      
+    -webkit-transition:0;
+    -moz-transition:0;
+    -o-transition:0;
+    -ms-transition:0;
+
+}
+
+
+
+/*--------BOTONES DE PAZ-------*/
+
+
+
+.center{
+    display: block!important;
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+
+
+.btn-round{
+
+    box-shadow:  inset 0 5 10px rgb(133, 13, 57);
+
+    /*  display: flex;*/
+
+    display: inline-block;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    width: 110px;
+
+    height: 110px;
+
+    color: white;
+
+    background-image: linear-gradient(to bottom right, rgba(122,51,107,255) , rgba(206,22,91,255));
+
+    text-decoration: none;
+
+    border-radius: 50%;
+
+    box-shadow: rgba(131, 110, 95, 0.3) 0px 19px 38px, rgba(71, 67, 61, 0.22) 12px 15px 20px;
+
+    font-size: 2em;
+    
+    line-height: 110px;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    transition: all 0.3s ease-in-out 0s;
+
+    outline: none;
+
+
+
+}
+
+
+
+
+
+/*--------COMPARTE TU PAZ-------*/
+
+
+
+#titulo_comparte{
+
+    margin-top: 100px;
+
+    margin-bottom: 60px;
+
+    width: 100%;
+
+    background-color: white;
+
+
+}
+
+
+
+
+
+
+
+/*-------------REDES------------*/
+
+
+
+
+
+.social-icon {
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    width: 50px;
+
+    height: 50px;
+
+    margin: 20px auto;
+
+    margin-bottom: 100px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    font-family: "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+
+    font-size: 1.5rem;
+
+    text-decoration: none;
+
+    transition: all 0.15s ease;
+
+    background: black;
+
+    color: #fff;
+    display: block;
+    
+    
+    
+
+}
+.social-icon i{
+    line-height: 50px;
+
+}
+.social-icon img{
+    padding-top: 15px;
+}
+
+.social-icon:hover {
+
+    color: #fff;
+}
+
+.social-icon:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+
+
+.social-icon--linkedin:hover {
+    background: #007bb6;
+
+}
+
+.social-icon--twitter:hover {
+    background: #00aced;
+
+}
+
+.social-icon--pinterest:hover {
+    background: #cb2027;
+
+}
+
+.social-icon--facebook:hover {
+    background: #3b5998;
+
+}
+
+.social-icon--instagram:hover {
+    background: #fd547c;
+
+}
+
+.social-icon--gmail:hover{
+    background: #1e21b6;
+
+
+}
+
+.social-icon--whatsapp:hover {
+    background: #25ae2a;
+
+}
+/*-----------------*TIK TOK y youtube------------->*/
+
+
+.tik-tok-icon{
+    display: inline-block;
+
+}
+.icon-bg{
+    fill: rgb(0, 0, 0);
+}
+.icon-path{
+    fill: rgb(255, 255, 255);
+}
+
+
+
+
+.social-icon--youtube {
+    background: black;
+    color: #fff;
+}
+
+.social-icon--youtube:hover {
+    background: #a82400;
+    color: #fff;
+}
+
+
+.social-icon i {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+
+/*--------FOOTER-------*/
+
+#logo_footer{
+background: rgba(255, 255, 255, 0.795)
+
+}
+
+
+
+
+footer{
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    align-items: stretch;
+
+    flex-wrap: nowrap;
+
+    width: 100%;
+
+    text-align: center;
+
+    height: 50%;
+
+    bottom: 0px;
+
+    background-color: rgba(0,22,59,255);
+
+    color: white;
+
+
+}
+
+
+#idearium_blanco{
+
+    text-align: center;
+
+}
+
+#primera_footer{
+
+    text-align: left;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    margin-top: 3%;
+
+    padding-bottom: 3%;
+
+    justify-content: space-between;
+
+    justify-content: space-evenly;
+
+    justify-items: space-evenly;
+
+}
+
+
+
+#apartado_primero{
+
+    line-height: 3em;
+    color: white;
+    
+
+}
+
+h4{
+    color: white;  
+}
+h4:hover{
+    color: gainsboro
+}
+
+ul a{
+    color: rgb(161, 183, 223);
+    text-decoration: none;
+    
+}
+ul a:hover{
+    color: rgb(102, 134, 187);
+    text-decoration: none;
+
+}
+
+#segunda_footer{
+
+    padding-bottom: 3%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    z-index: 3;
+
+    -webkit-box-shadow: 0 14px 10px -10px #ffffff;
+    -moz-box-shadow: 0 14px 10px -10px #4b1010;
+    box-shadow: 0 14px 10px -10px #3b0c0c;
+
+
+}
+
+
+
+
+#tercera_footer{
+
+    background-color: #993053;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    padding: 30px;
+
+    justify-content: space-evenly;
+
+}
+
+#tercera_footer_primero{
+
+    color: #ffffff;
+
+    font-size: 1.2em;
+
+}
+
+#tercera_footer_segundo{
+
+    color: #ffffff;
+
+    text-align: right;
+
+    font-size: 1.2em;
+
+}
+#tercera_footer_segundo_cookies:hover, #tercera_footer_segundo_cookies:hover{
+
+    color: gainsboro;
+
+
+}
+
+span{
+color: rgba(207,22,90,255);  
+}
+
+
+
+
+
+a {
+
+    text-decoration: none;
+    
+
+}
+
+
+#logout{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgba(207,22,90,255);  
+}
+#logout:hover{
+    font-size: 1.5em;
+    color: rgba(122,51,107,255);
+}
